@@ -7,7 +7,7 @@ int main()
 	int myMax(int x, int y);
 	int a, b, c;
 	scanf("%d %d", &a, &b);
-	c = max(a, b);
+	c = myMax(a, b);
 	printf("max = %d\n", c);
 	system("pause");
 	return 0;
