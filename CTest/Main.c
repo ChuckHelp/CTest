@@ -8,14 +8,21 @@ int main()
 	int a, b, c;
 	scanf("%d %d", &a, &b);
 	c = max(a, b);
-	printf("max=%d\n", c);
+	printf("max = %d\n", c);
+	system("pause");
 	return 0;
 }
 
 int myMax(int x, int y)
 {
 	int z;
-	if (x > y) z = y;
-	system("pause");
-	return(z);
+	if (x >= y) 
+	{
+		z = x; 
+	}
+	else 
+	{
+		z = y;
+	}
+	return z;
 }
